@@ -1,4 +1,3 @@
-//DOM manipulation
 
 //getElementById()
 //first, we are selecting the Document Object Model

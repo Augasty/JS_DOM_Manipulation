@@ -1,4 +1,3 @@
-//DOM manipulation
 
 //now we wanna change the styling of this element
 const title = document.querySelector('#main-heading')
