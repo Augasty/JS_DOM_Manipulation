@@ -20,10 +20,10 @@ const list = document.createElement('li')
 ul.append(list)
 
 
-// const firstListItem = document.querySelector('.list-items')
-// console.log(firstListItem)
-// console.log(firstListItem.textContent)
-// console.log(firstListItem.innerHTML)
+const firstListItem = document.querySelector('.list-items')
+console.log(firstListItem)
+console.log(firstListItem.textContent)  //gives the text inside the tag
+console.log(firstListItem.innerHTML)    //gives the html inside the tag
 
 
 //modifying the text
