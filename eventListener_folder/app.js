@@ -1,6 +1,5 @@
 //Event Listeners
-
-//element.addEventListener("type of event", function that will fire off, boolean)
+//element.addEventListener("type of event", callback function that will fire off, boolean)
 const button2 = document.querySelector('.btn-2')
 
 function alertBtn(){
@@ -19,13 +18,14 @@ boxHover.addEventListener('mouseover',()=>{
 
 //reveal event
 const revealBtn = document.querySelector('.reveal')
-const hidden = document.querySelector('.hidden')
+const componentToHide = document.querySelector('.hidden')
 
+// if the componentToHide has the class hidden, this function will remove it...and vice versa
 function revealContent (){
-    if(hidden.classList.contains('hidden')){
-        hidden.classList.remove('hidden')
+    if(componentToHide.classList.contains('hidden')){
+        componentToHide.classList.remove('hidden')
     } else{
-        hidden.classList.add('hidden')
+        componentToHide.classList.add('hidden')
     }
 }
 

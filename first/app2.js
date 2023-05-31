@@ -30,10 +30,13 @@ console.log(firstListItem.innerHTML)    //gives the html inside the tag
 list.innerText = 'X-Men'
 
 //modifying attributes and classes
-list.setAttribute('id','main-heading');
+// list.setAttribute('id','main-heading');
+// list.removeAttribute('id')
 
 console.log(title.getAttribute('id'))
 
+
+// classList lets us add, remove and manipulate classes in an element
 list.classList.add('list-items')
 
 // list.classList.remove('list-items')
@@ -42,4 +45,4 @@ list.classList.add('list-items')
 
 
 //remove elements
-list.remove()
+// list.remove()

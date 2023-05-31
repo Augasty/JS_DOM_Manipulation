@@ -28,6 +28,7 @@
     display: none;
 }
 
-.btn{
+.flex-container>.btn{
+    color:blueviolet;
     position: relative
 }
