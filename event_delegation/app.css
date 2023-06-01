@@ -1,0 +1,37 @@
+html,
+body {
+    background-color: aqua;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sports {
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 300px;
+    /* margin: 20px; */
+    outline: solid 2px black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+#sports>li {
+    cursor:default;
+    /*prevents the text inside the box from getting selected */
+    user-select: none;
+    display: inline;
+    margin: 0;
+    top:auto;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-25%);
+    text-align: center;
+    padding: 10px;
+    outline: solid 2px goldenrod;
+}
+
